@@ -216,7 +216,7 @@ export default function SchedulingModal({ isOpen, onClose, initialMode = 'online
                 {/* Submit button */}
                 <button
                   type="submit"
-                  className="w-full bg-[#7E8F7C] hover:bg-[#6C7C6B] text-white py-3.5 px-6 rounded-lg font-medium text-sm transition-all duration-200 shadow-md flex items-center justify-center gap-2 hover:translate-y-[-1px] cursor-pointer"
+                  className="w-full bg-[#7E8F7C] hover:bg-[#6C7C6B] text-white py-3.5 px-6 rounded-lg font-medium text-sm transition-all duration-200 shadow-md flex items-center justify-center gap-2 hover:-translate-y-px cursor-pointer"
                   id="submit-whatsapp-btn"
                 >
                   <Smartphone className="h-4 w-4" />
