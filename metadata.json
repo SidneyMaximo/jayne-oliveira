@@ -1,0 +1,6 @@
+{
+  "name": "Jayne Oliveira - Nutricionista",
+  "description": "Site profissional de Jayne Oliveira, Nutricionista Clínica e Comportamental. Agende sua consulta online ou presencial em Maceió.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
