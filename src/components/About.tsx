@@ -51,7 +51,7 @@ export default function About({ onOpenScheduling }: AboutProps) {
             
             <h2 className="font-serif text-[#2E2E2C] font-light text-3xl sm:text-4xl md:text-5xl leading-tight mb-2">
               Prazer, sou <br />
-              <span className="font-normal font-serif italic text-[#384236] text-4xl sm:text-5xl md:text-6xl">Jayne Oliveira</span>
+              <span className="font-abhaya font-semibold not-italic text-[#384236] text-4xl sm:text-5xl md:text-6xl tracking-wide">Jayne Oliveira</span>
             </h2>
             
             <span className="text-xs font-mono font-medium tracking-wide text-[#7E8F7C] uppercase bg-[#7E8F7C]/5 px-3 py-1 rounded-sm w-fit mb-8 border border-[#7E8F7C]/10">

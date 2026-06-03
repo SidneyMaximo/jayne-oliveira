@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-serif: "Playfair Display", Georgia, serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-abhaya: "Abhaya Libre", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
@@ -17,6 +19,10 @@ body {
 
 .font-editorial {
   font-family: var(--font-serif);
+}
+
+.font-abhaya {
+  font-family: var(--font-abhaya);
 }
 
 /* Custom fade integrations */
