@@ -158,7 +158,7 @@ export default function Footer({ onOpenScheduling }: FooterProps) {
           </h3>
           <button
             onClick={onOpenScheduling}
-            className="w-full bg-[#7E8F7C] hover:bg-[#6C7C6B] text-white py-3.5 px-6 rounded-full font-medium text-xs uppercase tracking-wider transition-all duration-300 shadow-md hover:translate-y-[-1px] cursor-pointer"
+            className="w-full bg-[#7E8F7C] hover:bg-[#6C7C6B] text-white py-3.5 px-6 rounded-full font-medium text-xs uppercase tracking-wider transition-all duration-300 shadow-md hover:-translate-y-px cursor-pointer"
             id="last-footer-cta-btn"
           >
             Agendar consulta

@@ -1,0 +1,1 @@
+chore: fix Tailwind utilities, add types and image declarations 

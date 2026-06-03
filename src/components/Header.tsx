@@ -101,7 +101,7 @@ export default function Header({ onOpenScheduling }: HeaderProps) {
           <div className="hidden md:block">
             <button
               onClick={onOpenScheduling}
-              className="bg-[#7E8F7C] hover:bg-[#6C7C6B] text-white font-medium text-xs px-5 py-2.5 rounded-full uppercase tracking-wider transition-all duration-300 shadow-xs hover:translate-y-[-1px] cursor-pointer"
+              className="bg-[#7E8F7C] hover:bg-[#6C7C6B] text-white font-medium text-xs px-5 py-2.5 rounded-full uppercase tracking-wider transition-all duration-300 shadow-xs hover:-translate-y-px cursor-pointer"
               id="header-cta-btn"
             >
               Agendar consulta

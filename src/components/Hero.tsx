@@ -79,7 +79,7 @@ export default function Hero({ onOpenScheduling }: HeroProps) {
         >
           <button
             onClick={onOpenScheduling}
-            className="w-full sm:w-auto bg-[#7E8F7C] hover:bg-[#8CA28A] text-white font-medium text-xs px-8 py-4 rounded-full uppercase tracking-widest transition-all duration-300 shadow-lg hover:shadow-xl hover:translate-y-[-2px] cursor-pointer"
+            className="w-full sm:w-auto bg-[#7E8F7C] hover:bg-[#8CA28A] text-white font-medium text-xs px-8 py-4 rounded-full uppercase tracking-widest transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 cursor-pointer"
             id="hero-book-btn"
           >
             Agendar Minha Consulta
