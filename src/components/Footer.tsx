@@ -9,7 +9,7 @@ export default function Footer({ onOpenScheduling }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   const handleInstagramClick = () => {
-    window.open('https://instagram.com/nutrijayneoliveira', '_blank', 'noopener,noreferrer');
+    window.open('https://instagram.com/jayneoliveirannutri', '_blank', 'noopener,noreferrer');
   };
 
   const handleEmailClick = () => {
